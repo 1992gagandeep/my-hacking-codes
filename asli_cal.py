@@ -1,0 +1,6 @@
+x = int(input("pehla number daalo:"))
+y = int(input("doosra number daalo:"))
+print("aapke total hai:",x+y)
+print("aapka minus hai:",x-y)
+print("aapka guna(multiply) hai:",x*y)
+print("aapka bhaag(divide) hai:",x/y)
