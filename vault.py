@@ -24,7 +24,7 @@ print("Folder: mylifeline_data")
 action = input("Type 'lock' or 'unlock': ")
 
 name = input("File ka naam likho: ")
-path = "mylifeline_data/" + name
+path = name
 
 if action == "lock":
     with open(path, "rb") as f:
